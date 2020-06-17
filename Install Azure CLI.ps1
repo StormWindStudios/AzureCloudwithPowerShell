@@ -1,0 +1,3 @@
+﻿#You Can download the MSI Installer here -> https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
+Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
+#After installation just type into the PowerShell Console AZ and hit enter to get a list of all the commands you just installed
